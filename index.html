@@ -1,137 +1,219 @@
 <!DOCTYPE html>
-<html>
-<title>Rueben Perez's Company Page</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Surface Pro Refinishing LLC</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/prefixfree.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>Rueben Perez's</b> Offical Website</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#home" class="w3-bar-item w3-button">Home</a>
-    <a href="#about" class="w3-bar-item w3-button">About Us</a>
-      <a href="#services" class="w3-bar-item w3-button">Services</a> 
-      <a href="#galleries" class="w3-bar-item w3-button">Galleries</a>     
-     <a href="#testimonials" class="w3-bar-item w3-button">Testimonials</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-  </div>
-</div>
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="#featured"><h1><b>Surface Pro Refinishing LLC &nbsp;</b><span class="subhead"><font color='black'><b>(404)247-5434</b></font></span></h1></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#featured">Home</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#staff">Staff</a></li>
+        </ul>        
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/images/architect3.jpg" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Company Name</b></span></h1>
-  </div>
+  <div class="carousel fade" data-ride="carousel" id="featured">
+
+    <ol class="carousel-indicators">
+    </ol>
+
+    <div class="carousel-inner fullheight">
+      <div class="item"><img src="images/SortList-18.jpg" alt="Lifestyle Photo"></div>
+      <div class="item"><img src="images/SortListTop-4.jpg" alt="Mission"></div>
+      <div class="item"><img src="images/bathroom_p2.jpg" alt="Vaccinations"></div>
+      <div class="item"><img src="images/bathroom_p3.jpg" alt="Fish"></div>
+      <div class="item"><img src="images/bathroom_p4.jpg" alt="Exotic Animals"></div>      
+    </div><!-- carousel-inner -->
+
+    <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#featured" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div><!-- featured carousel -->
 </header>
 
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+<div class="main">
+  <div class="page" id="mission">
+    <div class="content container">
+      <h2>Our Mission</h2>      
+      <div class="row">
+        <p class="col-md-5 col-md-offset-1">Surface Pro Refinishing strives to blend the best in traditional and alternative solutions in the treatment of bathtubs, tub modifications, counter tops, and floors. We apply the safest treatments to provide durbility and &nbsp; quality services.</p>
+        <p class="col-md-5">By using specialized equipment, coatings, and more, I can transform the look of any type of ceramic surface while avoiding the mess and hassle of removal and replacement. The result is smoother and more durable interiors with the original foundation still in &nbsp;place.</p>
+      </div><!-- row -->
+    </div><!-- content container -->
+  </div><!-- mission page -->
 
-  <!-- Project Section -->
-   <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="galleries">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Galleries</h3>
-  </div>
+  <div class="page" id="services">
+    <div class="content container">
+        <h2><b>Services</b></h2>
+      <div class="row">
+        <article class="service col-md-4 col-sm-6 col-xs-12">
+          <img class="icon" src="images/icon-exoticpets.svg" alt="Icon">
+            <h3><b>Rates Bathrooms </b></h3>
+            <h4>Type of Surface</h4>
+          <p>Porcelain Tubs (Inside and One Exposed Side)<br>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Bathtubs</div>
-        <img src="/images/bathroom_p1.jpg" alt="Bathubs" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Tub Modifications</div>
-        <img src="/images/bathroom_p2.jpg" alt="Tub Modifications" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Counter Tops</div>
-        <img src="/images/bathroom_p3.jpg" alt="Counter Tops" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Floors</div>
-        <img src="/images/bathroom_floor_p1.jpg" alt="Floors" style="width:100%">
-      </div>
-    </div>
-  </div>
+Fiberglass Enclosures <br>
 
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Us</h3>
-    <p>We will replace the About Us Section with your information. The information is below is a filler text.<br><b>FAKE TEXT:</b>I started this business because I wanted to provide real value and honest service to customers.
-    That's why I guarantee my work. So, if you're looking for someone to provide quality work at a reasonable 
-    price, I'm the guy to call. No run around, no hassles, and no broken promises!
-    </p>
-  </div>
+Wall Tile <br>
 
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom" id="contact">
-    <br><br><br>
-      <img src="/images/PBRA_logo.png" alt="Rueben's Image Here" style="width:30%">
-      <h3>Rueben Perez</h3>
-      <p class="w3-opacity">PBRA License Professional</p>
-      <p>Experience: XYZ years</p>
-      <p>Phone Number: XXX-XXX-XXXX</p>
-      <p>Email Address: xxxx@gmail.com</p>
-	  <p>Description: We place a 2-3 sentence description about you here.</p>
-    </div>
-  </div>
+Floor Tile <br>
 
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-32">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Request a FREE Estimate</h3>
-    <p>Lets get in touch and talk about your next project.</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
-    </form>
-  </div>
-  
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom" id="testimonials">
-      <h3>Customer FeedBack:</h3>
-      <br>
-	  <p>Description: We place a 2-3 sentence description about your service here.</p>
-    </div>
-  </div>
-  
-<!-- End page content -->
-</div>
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-<div class="row">
-		<div class="footer-copyright">
-			The contents of this webpage are Copyright &copy; 2018 Rueben's Company Name here. All Rights Reserved.
-	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.facebook.com/" target="_blank" class="facebook"><img src="/images/facebook.png" style="border-radius: 50%"/></a>
-        <a href="https://www.google.com/search?ei=C_uKW6CHE-qGggfIxbCgBg&q=Rueben+Perez+Company+Website&oq=Rueben+Perez+Company+Website&gs_l=psy-ab.3...2066.5032..5503...0.0..0.59.394.8......0....1..gws-wiz.......35i39j33i160j33i21.qTNFDsV6lak" target="_blank" class="google-plus"><img src="/images/google.png" style="border-radius: 50%"/></a>
-        <a href="https://www.angieslist.com/" target="_blank" class="angies-list"><img src="/images/angies_list.png" /></a>
-	    <a href="http://www.houzz.com/" target="_blank" class="houzz"><img src="/images/houzz.png" /></a>	        
-    </div>
-		<div class="footer-disclaimer">
-			<div class="footer-disclaimer-description">
-				Services: Bathroom Remodeling, Countertop Refinishing, Handicap Bathroom Installation, Safeway Step, Tile Installation
-				<br>
-				Areas: Atlanta Ga, Lawrenceville Ga, Loganville Ga, Snellville Ga			
-			</div>
-	    </div>
-  </div>
-  	</footer>
+Lavatories (Sinks) <br>
+
+Tile or Cultured Marble Countertops <br>
+
+A Base Coat <br>
+
+Speckled <br></p>
+            <p><b>Price</b><br>
+                $300.00-$400.00 <br>
+
+$475.00-$575.00 <br>
+
+Starting at $4.25/sq. ft. <br>
+
+Starting at $6.25/sq. ft.<br>
+
+$75.00-$95.00 <br>
+
+$20.00-$25.00/Linear Foot <br>
+
+$5.00-$10.00/Linear Foot (per Color) <br>
+            </p>
+        </article>
+
+        <article class="service col-md-4 col-sm-6 col-xs-12">
+          <img class="icon" src="images/icon-grooming.svg" alt="Icon">
+           <h3><b>Kitchen </b></h3>
+            <p><b>Formica or Tile Countertops</b><br>
+Base Coat $20.00-$25.00/Linear Foot
+<br>
+Multi-Stone $40.00-$50.00/Linear Foot
+<br><br>
+                <b>Refrigerators</b>
+<br>
+Single Door $175.00-$225.00
+<br>
+Double Door $225.00-$275.00
+<br><br>
+                <b>Misc.</b><br>
+Dishwashers $50.00-$75.00
+<br>
+Oven Doors $30.00-$40.00
+<br>
+Cabinets (per Door) $20.00-$25.00
+<br>
+Drawers (per Door) $10.00-$15.00
+<br></p>
+        </article>
+
+        <article class="service col-md-4 col-sm-6 col-xs-12">
+          <img class="icon" src="images/icon-health.svg" alt="Icon">
+            <h3><b>Chip Repairs</b></h3>
+            <p>First Repair $75.00/House Call | $60.00 per Spot <br>
+
+Second Repair (Same Job) $60.00 </p>
+        </article>
+
+        <article class="service col-md-4 col-sm-6 col-xs-12">
+          <img class="icon" src="images/icon-pestcontrol.svg" alt="Icon">
+            <h3><b>Clawfoot Tub</b></h3>
+          <p>Inside Only $300.00-$400.00 <br>
+
+Outside $300.00-$400.00 <br>
+
+Sandblasting Included <br>
+
+Feet Included <br>
+
+Inside and Outside $600.00-$700.00</p>
+        </article>
+
+        <article class="service col-md-4 col-sm-6 col-xs-12">
+          <img class="icon" src="images/icon-vaccinations.svg" alt="Icon">
+          <h3>Toilet</h3>
+          <p><b>Type of Toliet</b><br>
+            New $95.00-$125.00 <br>
+            Used $400.00-$450.00</p>
+        </article>   
+      </div><!-- row -->   
+    </div><!-- content container -->
+  </div><!-- services page -->
+
+   <div class="page" id="staff">
+    <div class="container-fluid">
+      <h2 id="ourstaff"><b>About Us</b></h2>
+      <div class="row">
+
+        <div class="doctor col-lg-12">
+          <div class="row">
+            <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+              <img class="img-circle" src="images/doctor-winthrop.jpg" alt="PBRA Logo" style="width:30%">
+            </div><!-- photo -->
+            <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+               <h3>Ruben Perez</h3>
+              <p>PBRA Certified Professional <br> 
+                  Experience: 11 years <br>
+                  Phone Number: (404)247-5434 <br>
+                  <b><font color='red'>Request a FREE Estimate!</font></b></p>
+                <p>
+                Hello, I am Todd Payne of Tub Medic, and I restore bathtubs and tiles in homes and offices. If you are looking for a less labor-intensive way to improve your property’s interiors that will save you money, I am the man to call!
+
+
+
+By using specialized equipment, coatings, and more, I can transform the look of any type of ceramic surface while avoiding the mess and hassle of removal and replacement. The result is smoother and more durable interiors with the original foundation still in place.
+
+
+
+Feel free to explore my website to learn more about my refinishing services, see before-and-after photos of my past projects, and more. I am based in Flowery Branch, Georgia.
+                </p>
+            </div><!-- info -->
+          </div> <!-- inner row -->
+        </div> <!-- doctor -->
+
+      </div><!-- outer row -->
+    </div><!-- container -->
+  </div><!-- staff page -->
+
+<footer>
+  <div class="content container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <p>Call us at <span class="phone">(404)247-5434</span></p>
+        <p>The contents of this webpage are Copyright © 2018 Surface Pro Refinishing LLC. All Rights Reserved.</p>    
+      </div><!-- col-sm-6 -->
+    </div><!-- row -->
+  </div><!-- content container -->
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
 </body>
 </html>
